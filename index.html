@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="ie=edge">
+        <meta name="generator" content="Visual Studio Code">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta name="author" content="Matheus Araújo">
+        <meta name="description" content="To do list - Simple project">
+        <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
+        <link rel="stylesheet" href="./src/CSS/styles.css">
+        <title>To do List!</title>
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+    </head>
+    <body>
+        <div id="main-board-section">
+            <div id="title-section">
+                <h1 class="title">To do List !</h1>
+                <button class="button" id="clear-button">Clear all Tasks</button>
+                <button class="button" id="new-task-button">New Task</button>
+            </div>
+            <div id="task-list-section"></div>
+        </div>
+        <div id="aux-board-section">
+            <div id="input-section">
+                <h2 class="title">New Task</h2>
+                <input type="text" id="text-input">
+                <div id="input-section-icons">
+                    <i class="material-icons aux-icons" id="cancel-button" alt="Cancel button">cancel</i>
+                    <i class="material-icons aux-icons" id="save-button" alt="Save button">save</i>
+                </div>
+            </div>
+        </div>
+    </body>
+    
+    <script src="./src/JS/todolist.js"></script>
+    <script src="./src/JS/tasks.js"></script>
+</html>
